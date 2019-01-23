@@ -2,7 +2,9 @@
 try
 {
 	require_once('inc/functions.php');
-
+	
+	
+	
 
 }
 catch(Exception $e)

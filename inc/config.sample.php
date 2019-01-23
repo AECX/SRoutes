@@ -4,3 +4,5 @@ define('DATABASE_USER', 'root');		    // MySQL username
 define('DATABASE_PASS', 'p@ssw0rd');		// MySQL password
 define('DATABASE_NAME', 'd4t4_b4s3');		// Database name
 define('DATABASE_WHAT', 'host');	        // "host" or unix socket path
+
+define('ROOT', dirname(dirname(__FILE__)));     // WebRoot (no slash)
